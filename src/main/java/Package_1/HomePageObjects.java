@@ -9,7 +9,8 @@ import BasePackage.BasePage;
 public class HomePageObjects extends BasePage{
 
 	//Object Identification OR
-	@FindBy(xpath="//a[@title='gulfi']")
+
+	@FindBy(xpath="//a[@title='Women']")
 	WebElement Women;
 	
 	@FindBy(xpath="(//a[@title='Dresses'])[2]")

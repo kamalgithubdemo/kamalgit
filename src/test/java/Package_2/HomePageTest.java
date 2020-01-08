@@ -11,8 +11,8 @@ import net.bytebuddy.utility.RandomString;
 
 public class HomePageTest {
   
-	HomePageObjects homepage;
-	BasePage bp;
+	HomePageObjects ;
+	//BasePage bp;
 	int random= new Random().nextInt(5000);
 	String email= "kamalakannan"+random+"@gmail.com";
 	
@@ -24,16 +24,17 @@ public class HomePageTest {
  public HomePageTest() {
 	
 	homepage= new HomePageObjects();
-	bp= new BasePage();
+	//bp= new BasePage();
  }
- 	@Test
- 	public void NoOfSubscriptionTest() {
- 	
- 		homepage.setText(homepage.emailbox(), mail);
- 		homepage.click(homepage.subscription());
- 		System.out.println(mail); //if you wanted to know what was printed
- 	}
- 	
+ 
+ @Test
+	public void NoOfSubscriptionTest() {
+	
+		homepage.setText(homepage.emailbox(), mail);
+		homepage.click(homepage.subscription());
+		System.out.println(mail); //if you wanted to know what was printed
+	}
+	
  	
  	
     @Test(enabled= false)

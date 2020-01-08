@@ -2,10 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="username" value="Admin"
-  </parameter>
-  
-  <parameter name="password" value="admin123"
-  </parameter>
+    <classes>
+      <class name="Package_2.WomenPageTest"/>
+      <class name="Package_2.HomePageTest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

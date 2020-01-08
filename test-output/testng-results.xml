@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14033" started-at="2020-01-03T08:35:16Z" finished-at="2020-01-03T08:35:30Z">
+  <suite name="Default suite" duration-ms="2494" started-at="2020-01-05T23:16:26Z" finished-at="2020-01-05T23:16:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14033" started-at="2020-01-03T08:35:16Z" finished-at="2020-01-03T08:35:30Z">
-      <class name="Package_2.WomenPageTest">
-        <test-method status="PASS" signature="womenTabClickTest()[pri:0, instance:Package_2.WomenPageTest@54422e18]" name="womenTabClickTest" is-config="true" duration-ms="1122" started-at="2020-01-03T08:35:16Z" finished-at="2020-01-03T08:35:17Z">
+    <test name="Default test" duration-ms="2494" started-at="2020-01-05T23:16:26Z" finished-at="2020-01-05T23:16:28Z">
+      <class name="Package_2.HomePageTest">
+        <test-method status="PASS" signature="substest()[pri:0, instance:Package_2.HomePageTest@413d1baf]" name="substest" duration-ms="2459" started-at="2020-01-05T23:16:26Z" finished-at="2020-01-05T23:16:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- womenTabClickTest -->
-        <test-method status="PASS" signature="verifydisplaedproductTest()[pri:0, instance:Package_2.WomenPageTest@54422e18]" name="verifydisplaedproductTest" duration-ms="2592" started-at="2020-01-03T08:35:17Z" finished-at="2020-01-03T08:35:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifydisplaedproductTest -->
-        <test-method status="PASS" signature="womenTabClickTest()[pri:0, instance:Package_2.WomenPageTest@54422e18]" name="womenTabClickTest" is-config="true" duration-ms="1568" started-at="2020-01-03T08:35:20Z" finished-at="2020-01-03T08:35:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- womenTabClickTest -->
-        <test-method status="PASS" signature="AddToCartTest()[pri:1, instance:Package_2.WomenPageTest@54422e18]" name="AddToCartTest" duration-ms="8711" started-at="2020-01-03T08:35:21Z" finished-at="2020-01-03T08:35:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddToCartTest -->
-      </class> <!-- Package_2.WomenPageTest -->
+        </test-method> <!-- substest -->
+      </class> <!-- Package_2.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
