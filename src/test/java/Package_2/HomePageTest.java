@@ -14,7 +14,7 @@ public class HomePageTest {
 	HomePageObjects ;
 	//BasePage bp;
 	int random= new Random().nextInt(5000);
-	String email= "kamalakannan"+random+"@gmail.com";
+	String email= "kamalakannan"+random+"@hotmail.com";
 	
 	String tandom2= new RandomString().nextString();
 	String mail= "AA"+tandom2+"@gmail.com";
